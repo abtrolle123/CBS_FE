@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# Testing / type checking / linting caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# IDE — PyCharm / JetBrains
+.idea/
+*.iml
+
+# IDE — VS Code
+.vscode/
+
+# Claude Code — personal/local settings, not shared with the team
+.claude/settings.local.json
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Excel / Office temp files
+~$*.xls*
+~$*.doc*
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Mandatory assignment -- untracked until after hand-in, see README
+CBS_FE_Mandatory_Assignment.ipynb

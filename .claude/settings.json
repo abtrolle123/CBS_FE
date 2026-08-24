@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__claude-in-chrome__read_console_messages",
+      "mcp__claude-in-chrome__tabs_context_mcp",
+      "Bash(python3 -c *)"
+    ]
+  }
+}
